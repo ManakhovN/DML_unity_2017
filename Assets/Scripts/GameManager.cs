@@ -23,4 +23,9 @@ public class GameManager : MonoBehaviour {
     {
         gameInfo.playingTime = Time.time;
     }
+
+    public void AddPoints(int delta)
+    {
+        gameInfo.score += delta;
+    }
 }
